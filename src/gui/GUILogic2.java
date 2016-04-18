@@ -13,7 +13,7 @@ public class GUILogic2 implements ItemListener {
         //Put the JComboBox in a JPanel to get a nicer look.
         JPanel comboBoxPane = new JPanel(); //use FlowLayout
         String comboBoxItems[] = { MAINPANEL, GAMEPANEL };
-        JComboBox cb = new JComboBox(comboBoxItems);
+        JComboBox<Object> cb = new JComboBox<Object>(comboBoxItems);
         //cb.setEditable(false);
         cb.addItemListener(this);
         comboBoxPane.add(cb);

@@ -56,7 +56,7 @@ public class HiLoLogic {
 		} if (num < rand && num > 0) {
 			System.out.println("Your guess is too low.");
 		} if (num < 1 || num > 100) {
-			System.out.println("Your guess must be an integer on the interval [0, 100]");
+			System.out.println("Your guess must be an integer on the interval [1, 100]");
 		}
 	}
 	
