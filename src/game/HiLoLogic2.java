@@ -13,17 +13,14 @@ public class HiLoLogic2 {
 	
 	public static void main(String[] args) {
 		
-		
 		System.out.println("Take a guess, or quit at any time by entering \"q\".");
 		do {
 			s = scan.nextLine();
 			count++;
 			HiLo(s);
-			
 		} while (!s.equals("q") && stillPlaying);
 		scan.close();
 		System.out.println("Thank you for playing.");
-		
 	}
 	
 	public static void HiLo(String stirng) {
