@@ -30,7 +30,7 @@ public class HiLoLogic {
 			if (s.equals("q")) {
 				System.out.println("Thank you for playing.");
 			}
-			if (!s.equals("q")) {
+			else {
 				System.out.println("Thank you for playing.");
 				System.out.println();
 				System.out.println("If you would like to play again enter \"y\".");
