@@ -23,7 +23,6 @@ public class HiLoLogic2 {
 		System.out.println("Thank you for playing.");
 	}
 	
-	
 	public static void HiLo(String stirng) {
 		
 		if (s.matches("\\d+")) {
